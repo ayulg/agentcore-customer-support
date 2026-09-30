@@ -1,0 +1,18 @@
+╭─────────────────────────────────────── cs_agent ────────────────────────────────────────╮
+│ Session: 303d50ba-0582-42e6-b356-a9dfc3f7b869                                           │
+│ Request ID: e0fc7df7-dde0-4ac2-8778-4de0aadde4fc                                        │
+│ ARN: arn:aws:bedrock-agentcore:us-east-1:111575680653:runtime/cs_agent-QIfi0hAken       │
+│ Logs: aws logs tail /aws/bedrock-agentcore/runtimes/cs_agent-QIfi0hAken-DEFAULT         │
+│ --log-stream-name-prefix "2026/09/30/[runtime-logs" --follow                            │
+│       aws logs tail /aws/bedrock-agentcore/runtimes/cs_agent-QIfi0hAken-DEFAULT         │
+│ --log-stream-name-prefix "2026/09/30/[runtime-logs" --since 1h                          │
+│ GenAI Dashboard:                                                                        │
+│ https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#gen-ai-observability/ag │
+│ ent-core                                                                                │
+╰─────────────────────────────────────────────────────────────────────────────────────────╯
+
+Response:
+{"result": "Your order ORD-001 has been shipped! Here are the details:\n\n**Status:** 
+SHIPPED  \n**Item:** Wireless Headphones Pro (1 x $89.99)  \n**Total:** $89.99  
+\n**Tracking Number:** TRK987654321  \n**Carrier:** UPS  \n**Estimated Delivery:** October 
+2, 2026  \n\nYou can track your package using the tracking number with UPS."}

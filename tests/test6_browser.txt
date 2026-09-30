@@ -1,0 +1,16 @@
+╭─────────────────────────────────────── cs_agent ────────────────────────────────────────╮
+│ Session: 303d50ba-0582-42e6-b356-a9dfc3f7b869                                           │
+│ Request ID: 280bb4cb-b74d-4d06-b8e1-23938e82b9bb                                        │
+│ ARN: arn:aws:bedrock-agentcore:us-east-1:111575680653:runtime/cs_agent-QIfi0hAken       │
+│ Logs: aws logs tail /aws/bedrock-agentcore/runtimes/cs_agent-QIfi0hAken-DEFAULT         │
+│ --log-stream-name-prefix "2026/09/30/[runtime-logs" --follow                            │
+│       aws logs tail /aws/bedrock-agentcore/runtimes/cs_agent-QIfi0hAken-DEFAULT         │
+│ --log-stream-name-prefix "2026/09/30/[runtime-logs" --since 1h                          │
+│ GenAI Dashboard:                                                                        │
+│ https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#gen-ai-observability/ag │
+│ ent-core                                                                                │
+╰─────────────────────────────────────────────────────────────────────────────────────────╯
+
+Response:
+{"result": "The page title of https://www.udacity.com is:\n\n**\"Learn the Latest Tech 
+Skills; Advance Your Career | Udacity\"**"}

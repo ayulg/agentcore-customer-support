@@ -1,0 +1,34 @@
+Screenshot Index
+================
+
+TEST SCENARIO SCREENSHOTS
+-------------------------
+test1_order_tracking.png      — Test 1: agentcore invoke tracking ORD-001
+                                Response: TRK987654321, UPS, ETA October 2, 2026
+
+test2_refund.png              — Test 2: agentcore invoke refund for ORD-002
+                                Response: REF-9CH0D7LI, APPROVED, 3-5 business days
+
+test3_rag.png                 — Test 3: agentcore invoke Platinum tier benefits
+                                Response: Free same-day shipping, 15% discount,
+                                priority support
+
+test4a_memory_shared.png      — Test 4 Session A: user introduces themselves
+                                "Hi, I am Alice. I prefer detailed explanations."
+
+test4b_memory_recalled.png    — Test 4 Session B: new session, same customer
+                                Agent recalls the name and preference
+
+test5_discount.png            — Test 5: agentcore invoke loyalty discount
+                                Response: 4,000 points, 10% tier, $99.00, 349 left
+
+test6_browser.png             — Test 6: agentcore invoke browser tool
+                                Response: Udacity page title
+
+CODE EVIDENCE SCREENSHOTS
+-------------------------
+code_gateway_error_handling.png — Gateway MCPClient with logger.info and
+                                  logger.exception handlers
+code_mcpclient_setup.png        — Full invoke() with tools + Gateway connection
+code_memory_hook.png            — MemoryHook class with all required methods
+code_lambda_clientcontext.png   — Lambda tools with ClientContext routing

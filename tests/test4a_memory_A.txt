@@ -1,0 +1,18 @@
+╭─────────────────────────────────────── cs_agent ────────────────────────────────────────╮
+│ Session: 303d50ba-0582-42e6-b356-a9dfc3f7b869                                           │
+│ Request ID: b9585b30-05c5-4b60-937f-d7523e3f4ce0                                        │
+│ ARN: arn:aws:bedrock-agentcore:us-east-1:111575680653:runtime/cs_agent-QIfi0hAken       │
+│ Logs: aws logs tail /aws/bedrock-agentcore/runtimes/cs_agent-QIfi0hAken-DEFAULT         │
+│ --log-stream-name-prefix "2026/09/30/[runtime-logs" --follow                            │
+│       aws logs tail /aws/bedrock-agentcore/runtimes/cs_agent-QIfi0hAken-DEFAULT         │
+│ --log-stream-name-prefix "2026/09/30/[runtime-logs" --since 1h                          │
+│ GenAI Dashboard:                                                                        │
+│ https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#gen-ai-observability/ag │
+│ ent-core                                                                                │
+╰─────────────────────────────────────────────────────────────────────────────────────────╯
+
+Response:
+{"result": "Hello Charlie! I'll make sure to use bullet points for my responses.\n\nHow can
+I help you today? Here are some things I can assist with:\n- Tracking your orders\n- 
+Processing refunds\n- Checking loyalty discounts\n- Searching product information and 
+policies\n- Looking up order history\n\nPlease let me know what you'd like to do!"}
